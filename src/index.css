@@ -1,0 +1,63 @@
+:root {
+  --bg: #07090d;
+  --bg-elev: #0f131b;
+  --bg-panel: rgba(16, 20, 28, 0.78);
+  --line: rgba(255, 255, 255, 0.08);
+  --line-strong: rgba(255, 255, 255, 0.16);
+  --text: #eef2f7;
+  --muted: #93a0b4;
+  --dim: #667085;
+  --orange: #ff5a1f;
+  --orange-2: #ff8a4c;
+  --teal: #3ee0c5;
+  --blue: #6ea8ff;
+  --red: #ff5d73;
+  --gold: #f5c15c;
+  --build: #3ee0c5;
+  --access: #ff8a4c;
+  --shadow: 0 24px 80px rgba(0, 0, 0, 0.45);
+  font-family: 'IBM Plex Sans', system-ui, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  background:
+    radial-gradient(1200px 600px at 10% -10%, rgba(62, 224, 197, 0.08), transparent 55%),
+    radial-gradient(900px 500px at 100% 0%, rgba(255, 90, 31, 0.12), transparent 50%),
+    var(--bg);
+}
+
+button,
+a {
+  font-family: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+.mono {
+  font-family: 'IBM Plex Mono', ui-monospace, monospace;
+}
+
+h1,
+h2,
+.display {
+  font-family: Syne, sans-serif;
+  letter-spacing: -0.03em;
+}
