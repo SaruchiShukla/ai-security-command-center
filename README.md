@@ -11,4 +11,4 @@ npm install
 npm run dev
 ```
 
-Live (GitHub Pages): https://amashukl.github.io/ai-security-command-center/
+Live (GitHub Pages): https://saruchishukla.github.io/ai-security-command-center/
